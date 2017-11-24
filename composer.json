@@ -6,7 +6,8 @@
         "ramsey/uuid": "^3.7",
         "google/recaptcha": "^1.1",
         "catfan/Medoo": "^1.5",
-        "philipp15b/php-i18n": "^3.0"
+        "philipp15b/php-i18n": "^3.0",
+        "symfony/Yaml": "^3.3"
     },
     "license": "GPL-3.0",
     "authors": [

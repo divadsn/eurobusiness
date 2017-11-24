@@ -9,7 +9,7 @@ database:
 
 # Security settings
 security:
-  hashsalt: "eurobusiness"
+  hashsalt: "€urobu$ine$$"
 
 # Should we enable logging for errors?
 debug: true
