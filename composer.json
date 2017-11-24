@@ -1,0 +1,15 @@
+{
+    "name": "divadsn/eurobusiness",
+    "description": "A Monopoly-like HTML5 online game using PHP with Redis as Backend.",
+    "require": {
+        "predis/predis": "^1.1",
+        "ramsey/uuid": "^3.7"
+    },
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "David Sn",
+            "email": "divad.nnamtdeis@gmail.com"
+        }
+    ]
+}
