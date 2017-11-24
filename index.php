@@ -2,19 +2,9 @@
 
   include "vendor/autoload.php";
 
-  use Ramsey\Uuid\Uuid;
+  use Eurobusiness\Utils;
 
-  $client = new Predis\Client([
-    'scheme' => 'tcp',
-    'host'   => '127.0.0.1',
-    'port'   => 6379,
-  ]);
-
-  $session = $client->get('session');
-  echo "Last session: " . (empty($session) ? "NONE" : $session) . "<br />";
-
-  $sessionId = Uuid::uuid5(Uuid::NAMESPACE_DNS, 'game_' . time());
-  $client->set('session', $sessionId->toString());
-  echo "New session: " . $sessionId->toString();
+  // Should output f550db9696875255f26d569675874ee9d6a9c8ed0e9c724d3fb35533a58fa005
+  echo Utils::getSha256Hash("test123");
 
 ?>

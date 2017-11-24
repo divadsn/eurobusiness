@@ -1,0 +1,15 @@
+# MySQL database settings
+database:
+  host: localhost
+  user: admin
+  password: phpmyadmin
+  name: eurobusiness
+  prefix: ""
+  charset: utf8
+
+# Security settings
+security:
+  hashsalt: "eurobusiness"
+
+# Should we enable logging for errors?
+debug: true
